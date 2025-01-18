@@ -17,9 +17,8 @@ A simple and user-friendly calculator that performs basic mathematical operation
 - **Responsive Design**: Works seamlessly on desktops, tablets, and mobile devices.
 - **Input Handling**: Handle user input accurately.
 - **Error Handling**: Implement error handling to handle cases like division by zero or other
-mathematical errors.
--**Operations**:The calculator follows the correct order of operations (e.g.,
-BODMAS/BIDMAS)
+mathematical errors and handle the operations in correct order(BODMAS/BIDMAS)
+ 
 
 
 
