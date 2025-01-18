@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #caf0f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.display {
+    background-color: #222;
+    color: white;
+    text-align: right;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.display input {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background-color: #ccc;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+button.span-two {
+    grid-column: span 2;
+}
+
+button:last-child {
+    background-color: white;
+    color: black;
+}
+.head{
+    margin-top: 10px;
+}
+/* Header styling for fixed top heading */
+header {
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c6ac8f; /* A nice blue color */
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures it stays above other content */
+  }
+  
+  .calculator-heading {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+  }
