@@ -37,5 +37,6 @@ mathematical errors and handle the operations in correct order(BODMAS/BIDMAS)
 
 ![Screenshot 2025-01-18 225556](https://github.com/user-attachments/assets/dd7bff0f-74d1-4f77-8597-67d0a21013d7)
 ![Screenshot 2025-01-18 225801](https://github.com/user-attachments/assets/5dcae765-7601-4b32-bb59-1446f266cf48)
+![Screenshot 2025-01-19 221234](https://github.com/user-attachments/assets/5fd589bf-46db-4f1a-9cdf-9dfd8266af42)
 
 
